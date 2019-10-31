@@ -1,0 +1,58 @@
+@font-face{
+	font-family: "DancingScript-Bold";
+	src: url(../fonts/DancingScript-Bold.ttf);
+}
+.font1{
+	font-family: "DancingScript-Bold";
+}
+@font-face{
+	font-family: "DancingScript-Regular";
+	src: url(../fonts/DancingScript-Regular.ttf);
+}
+.font2{
+	font-family: "DancingScript-Regular";
+}
+@font-face{
+	font-family: "Vollkorn-Bold";
+	src: url(../fonts/Vollkorn-Bold.ttf);
+}
+.font3{
+	font-family: "Vollkorn-Bold";
+}
+@font-face{
+	font-family: "Vollkorn-BoldItalic";
+	src: url(../fonts/Vollkorn-BoldItalic.ttf);
+}
+.font4{
+	font-family: "Vollkorn-BoldItalic";
+}
+@font-face{
+	font-family: "Vollkorn-Italic";
+	src: url(../fonts/Vollkorn-Italic.ttf);
+}
+.font5{
+	font-family: "Vollkorn-Italic";
+}
+@font-face{
+	font-family: "Vollkorn-Regular";
+	src: url(../fonts/Vollkorn-Regular.ttf);
+}
+.font6{
+	font-family: "Vollkorn-Regular";
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    /*font-family:"微软雅黑";*/
+}
+body{
+	background:-moz-linear-gradient(top,rgb(250,239,202),rgb(250,226,143));/*火狐*/ 
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(rgb(250,239,202)), to(rgb(250,226,143)));/*谷歌*/ 
+	width: 100%;
+}
+
+
+.lj1 img{
+	-webkit-filter: grayscale(90%);
+	filter: grayscale(90%);
+}
